@@ -30,7 +30,7 @@ const SingleCard = () => {
         {/* Preview Section */}
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <div
-            className={`bg-gray-200 rounded-lg p-6 flex justify-center items-center w-full max-w-sm h-40 text-xl font-semibold border border-gray-300 cursor-pointer transition-transform transform hover:scale-105 hover:shadow-2xl ${effect?.className}`}
+            className={`bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg p-6 flex justify-center items-center w-full max-w-sm h-40 text-xl font-semibold border border-gray-300 cursor-pointer transition-transform transform hover:scale-105 hover:shadow-2xl ${effect?.className}`}
           >
             {effectName || "Effect Preview"}
           </div>
