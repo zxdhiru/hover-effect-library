@@ -37,7 +37,9 @@ const Navbar = () => {
           </button> */}
 
           {/* GitHub Link */}
-          <a
+          <ul>
+            <li>
+                <a
             href="https://github.com/zxdhiru/hover-effects-library"
             target="_blank"
             rel="noopener noreferrer"
@@ -45,6 +47,9 @@ const Navbar = () => {
           >
             Give us a star on GitHub
           </a>
+            </li>
+          </ul>
+          
         </div>
       </div>
     </nav>
