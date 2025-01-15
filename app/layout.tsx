@@ -23,6 +23,6 @@ export default function App() {
     return <>
     <Navbar />
     <Outlet />
-    <p className="text-center py-4">Created with ❤️ by <a href="https://www.hithub.com/zxdhiru" className="text-xl font-bold hover:underline">Dhiru</a></p>
+    <p className="text-center py-4">Created with ❤️ by <a href="https://www.github.com/zxdhiru" className="text-xl font-bold hover:underline">Dhiru</a></p>
     </>;
   }
