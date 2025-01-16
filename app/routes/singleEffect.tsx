@@ -43,8 +43,8 @@ const SingleCard = () => {
             <h2 className="text-2xl font-semibold mb-4 text-indigo-700">
               Tailwind ClassName
             </h2>
-            <div className="flex items-center gap-4">
-              <p className="text-sm font-mono bg-gray-100 p-4 rounded-lg border border-gray-300 flex-1">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              <p className="text-sm font-mono bg-gray-100 p-4 rounded-lg border border-gray-300 flex-1 break-words">
                 {effect?.className || "Effect not found"}
               </p>
               <button
@@ -64,8 +64,8 @@ const SingleCard = () => {
             <h2 className="text-2xl font-semibold mt-6 mb-4 text-indigo-700">
               Vanilla CSS
             </h2>
-            <div className="flex items-center gap-4">
-              <p className="text-sm font-mono bg-gray-100 p-4 rounded-lg border border-gray-300 flex-1">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              <p className="text-sm font-mono bg-gray-100 p-4 rounded-lg border border-gray-300 flex-1 break-words">
                 {effect?.vanillaCSS || "Vanilla CSS not available"}
               </p>
               <button
