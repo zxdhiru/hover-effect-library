@@ -16,7 +16,7 @@ const SingleCard = () => {
   };
 
   return (
-    <div className="text-white p-8 pt-32">
+    <div className="dark:text-white text-black p-8 pt-32">
       {/* Title */}
       <h1 className="text-4xl font-bold text-center mb-4">
         Effect: {effectName}
